@@ -1,7 +1,7 @@
 # UltarSonic.
 
 We have designed a `Convolutional Neural Network (CNN)` using `TensorFlow's Keras API` to address a specific classification problem; 
-*`Pneumonia & Lung Tumors Classification`. 
+`*Pneumonia & Lung Tumors Classification`. 
 
 The architecture of the model is carefully chosen to effectively learn hierarchical features from the input images and perform accurate classification tasks. The model consists of three pairs of `convolutional` and `max-pooling` layers, a `flatten` layer, and two `dense` layers, with each layer serving a specific purpose and having selected parameters to optimize performance.
 
