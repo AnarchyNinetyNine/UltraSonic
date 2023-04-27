@@ -27,7 +27,7 @@ In summary, the architecture and selected parameters of our CNN model are design
 
 
 
-`_import tensorflow as tf_`: Import TensorFlow library and use the alias tf. TensorFlow is an open-source library used for numerical computation and machine learning tasks, particularly deep learning.
+__`import tensorflow as tf`__: Import TensorFlow library and use the alias tf. TensorFlow is an open-source library used for numerical computation and machine learning tasks, particularly deep learning.
 
 from tensorflow.keras.models import Sequential: Import the Sequential class from the tensorflow.keras.models module. The Sequential class is used for creating a linear stack of layers in a deep learning model.
 
