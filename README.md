@@ -1,4 +1,4 @@
-# https://UltarSonic.tech
+# UltarSonic.tech
 
 We have designed a `Convolutional Neural Network (CNN)` using `TensorFlow's Keras API` to address a specific classification problem; 
 `Pneumonia & Lung Tumors Classification`.
