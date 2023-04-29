@@ -1,6 +1,6 @@
 # Architecture:
 
-1.` Input shape`: (224, 224, 3)
+1. `Input shape`: (224, 224, 3)
 2. `Conv2D` layer with 8 filters, 3x3 kernel size, `L2` regularization, and `He normal` initializer
 3. `ReLU` activation layer
 4. `Layer normalization` (axis=1)
