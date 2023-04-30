@@ -201,7 +201,7 @@ UltraSonic_Model = Ultrasonic_Model_Wrapper_Function()
 
 # Callbacks
 early_stopping = EarlyStopping(monitor='val_loss', patience=5, verbose=1)
-model_checkpoint = ModelCheckpoint('Layer_Norm_6.h5', save_best_only=True, monitor='val_loss', mode='min', verbose=1)
+model_checkpoint = ModelCheckpoint('Layer_Norm_6.h5', save_best_only=True, monitor='val_accuracy', mode='max', verbose=1)
 reduce_lr_on_plateau = ReduceLROnPlateau(monitor='val_loss', factor=0.2, patience=3, verbose=1, min_lr=1e-6)
 
 callbacks = [early_stopping, model_checkpoint, reduce_lr_on_plateau]
